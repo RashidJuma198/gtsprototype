@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging | GTS Jobs Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/40" alt="GTS Logo" class="logo">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for conversations">
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-house-user"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i> My Network</a></li>
+                <li><a href="jobs.html"><i class="fas fa-briefcase"></i> Jobs</a></li>
+                <li><a href="messaging.html" class="active"><i class="fas fa-envelope"></i> Messaging</a></li>
+                <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+                <li><a href="#"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img-large">
+                    <div class="profile-info">
+                        <h2>RASHID JUMA</h2>
+                        <p>Software Developer / AWS Cloud Computing</p>
+                    </div>
+                </div>
+                <div class="profile-stats">
+                    <p>Profile viewers: <span>56</span></p>
+                    <p>Post impressions: <span>411</span></p>
+                </div>
+                <div class="profile-footer">
+                    <p>Boost your job search with Premium</p>
+                    <button class="try-premium-btn">Try for KES 0</button>
+                </div>
+            </div>
+
+            <div class="conversations-list">
+                <div class="conversation-item active">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Contact" class="contact-img">
+                    <div class="conversation-info">
+                        <h3>Sarah Mukuti</h3>
+                        <p>Hi! I'm interested in the position you posted...</p>
+                    </div>
+                    <p class="time">10m</p>
+                </div>
+                <div class="conversation-item">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Contact" class="contact-img">
+                    <div class="conversation-info">
+                        <h3>Elvis Warutumo</h3>
+                        <p>Thanks for your application. We'll get back to you soon.</p>
+                    </div>
+                    <p class="time">1h</p>
+                </div>
+                <div class="conversation-item">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Contact" class="contact-img">
+                    <div class="conversation-info">
+                        <h3>John Njoroge</h3>
+                        <p>Looking forward to our interview tomorrow.</p>
+                    </div>
+                    <p class="time">3h</p>
+                </div>
+                <div class="conversation-item">
+                    <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Contact" class="contact-img">
+                    <div class="conversation-info">
+                        <h3>Jane Muigai</h3>
+                        <p>Could you provide more details about the role?</p>
+                    </div>
+                    <p class="time">5h</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="conversation-header">
+                <h2>Sarah Mukuti</h2>
+                <div class="conversation-actions">
+                    <button><i class="fas fa-phone"></i></button>
+                    <button><i class="fas fa-video"></i></button>
+                    <button><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+            </div>
+
+            <div class="messages-container">
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Hi! I'm interested in the position you posted for a software developer. Could you provide more details about the requirements?</p>
+                        <span class="time">10:30 AM</span>
+                    </div>
+                </div>
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>Thank you for your interest! The position requires proficiency in JavaScript, Python, and experience with AWS services. Please share your resume and portfolio.</p>
+                        <span class="time">10:35 AM</span>
+                    </div>
+                </div>
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Great, I have experience with all of those. Here's my resume and portfolio link.</p>
+                        <span class="time">10:40 AM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-input">
+                <input type="text" placeholder="Type a message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="active-conversation">
+                <h3>Current conversation</h3>
+                <div class="conversation-contact">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Contact" class="contact-img">
+                    <div class="contact-info">
+                        <h4>Sarah Mukuti</h4>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-activity">
+                <h3>Recent activity</h3>
+                <div class="activity-item">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Contact" class="contact-img">
+                    <div class="activity-info">
+                        <h4>Elvis Warutumo</h4>
+                        <p>Sent you a message</p>
+                        <span class="time">1h ago</span>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Contact" class="contact-img">
+                    <div class="activity-info">
+                        <h4>John Njoroge</h4>
+                        <p>Sent you a message</p>
+                        <span class="time">3h ago</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy & Terms</a>
+            <a href="#">Ad Choices</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business Services</a>
+            <a href="#">Get the GTS app</a>
+        </div>
+        <div class="footer-info">
+            <p>GTS Corporation © 2023</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* Network specific styles */
+.network-tabs {
+    margin-bottom: 24px;
+}
+
+.network-tabs ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.network-tabs li {
+    margin-right: 10px;
+}
+
+.network-tabs a {
+    display: block;
+    padding: 10px 16px;
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+}
+
+.network-tabs li.active a {
+    border-bottom-color: #0a66c2;
+}
+
+.connection-item {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #e6e6e6;
+    align-items: center;
+}
+
+.connection-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.connection-info {
+    flex: 1;
+}
+
+.connection-info h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.connection-info p {
+    font-size: 12px;
+    color: #5e6c84;
+    margin-bottom: 4px;
+}
+
+.connection-meta {
+    font-size: 12px;
+    color: #5e6c84;
+}
+
+.connection-item .message-btn, .connection-item .connect-btn {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.message-btn {
+    background-color: #eef1f5;
+    color: #0a66c2;
+    border: none;
+}
+
+.connect-btn {
+    background-color: #eef1f5;
+    color: #0a66c2;
+    border: none;
+}
+
+.suggestion-item, .activity-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.suggestion-img, .activity-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.suggestion-info, .activity-info {
+    flex: 1;
+}
+
+.suggestion-info h4, .activity-info h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.suggestion-info p, .activity-info p {
+    font-size: 12px;
+    color: #5e6c84;
+    margin-bottom: 4px;
+}
+
+.activity-info .time {
+    font-size: 10px;
+    color: #5e6c84;
+}

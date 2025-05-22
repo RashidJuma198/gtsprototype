@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications | GTS Jobs Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="notifications.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/40" alt="GTS Logo" class="logo">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-house-user"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i> My Network</a></li>
+                <li><a href="jobs.html"><i class="fas fa-briefcase"></i> Jobs</a></li>
+                <li><a href="messaging.html"><i class="fas fa-envelope"></i> Messaging</a></li>
+                <li><a href="notifications.html" class="active"><i class="fas fa-bell"></i> Notifications</a></li>
+                <li><a href="#"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img-large">
+                    <div class="profile-info">
+                        <h2>RASHID JUMA</h2>
+                        <p>Software Developer / AWS Cloud Computing</p>
+                    </div>
+                </div>
+                <div class="profile-stats">
+                    <p>Profile viewers: <span>56</span></p>
+                    <p>Post impressions: <span>411</span></p>
+                </div>
+                <div class="profile-footer">
+                    <p>Boost your job search with Premium</p>
+                    <button class="try-premium-btn">Try for KES 0</button>
+                </div>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#"><i class="fas fa-bell btn btn-primary"></i> All notifications</a></li>
+                    <li><a href="#"><i class="fas fa-star"></i> Mentions</a></li>
+                    <li><a href="#"><i class="fas fa-user-plus"></i> Connection requests</a></li>
+                    <li><a href="#"><i class="fas fa-trophy"></i> Job matches</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Message notifications</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Notifications</h1>
+                <div class="notification-actions">
+                    <button class="mark-as-read-btn">Mark all as read</button>
+                </div>
+            </div>
+
+            <div class="notifications-list">
+                <div class="notification-item unread">
+                    <div class="notification-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p><strong>Sarah Mukuti</strong> wants to connect</p>
+                        <p class="notification-meta">10 minutes ago</p>
+                        <button class="accept-btn">Accept</button>
+                        <button class="decline-btn">Decline</button>
+                    </div>
+                </div>
+
+                <div class="notification-item unread">
+                    <div class="notification-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p>You have a new <strong>job match</strong>: Software Developer at Tech Innovations Ltd</p>
+                        <p class="notification-meta">30 minutes ago</p>
+                        <button class="view-job-btn">View job</button>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <div class="notification-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p><strong>Elvis Warutumo</strong> commented on your post</p>
+                        <p class="notification-meta">2 hours ago</p>
+                        <button class="view-btn">View comment</button>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <div class="notification-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p><strong>John Njoroge</strong> liked your post</p>
+                        <p class="notification-meta">3 hours ago</p>
+                        <button class="view-btn">View post</button>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <div class="notification-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p>You have a new <strong>message</strong> from Jane Muigai</p>
+                        <p class="notification-meta">4 hours ago</p>
+                        <button class="view-btn">View message</button>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <div class="notification-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p>Your profile was viewed by <strong>12 new people</strong></p>
+                        <p class="notification-meta">5 hours ago</p>
+                        <button class="view-btn">See who viewed</button>
+                    </div>
+                </div>
+
+                <div class="notification-item">
+                    <div class="notification-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="notification-content">
+                        <p>Congratulations! Your application for the position of <strong>Data Analyst</strong> at Data Solutions Inc has been shortlisted</p>
+                        <p class="notification-meta">1 day ago</p>
+                        <button class="view-btn">View application</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="notification-summary">
+                <h3>Notification summary</h3>
+                <div class="summary-item">
+                    <div class="summary-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Connection requests</h4>
+                        <p>3 new requests</p>
+                    </div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Job matches</h4>
+                        <p>5 new matches</p>
+                    </div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <div class="summary-info">
+                        <h4>Comments</h4>
+                        <p>8 new comments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-settings">
+                <h3>Notification settings</h3>
+                <div class="setting-item">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Email notifications</p>
+                </div>
+                <div class="setting-item">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </div>
+                    <p>Push notifications</p>
+                </div>
+                <div class="setting-item">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </div>
+                    <p>Job alerts</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a class="btn btn-primary" href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy & Terms</a>
+            <a href="#">Ad Choices</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business Services</a>
+            <a href="#">Get the GTS app</a>
+        </div>
+        <div class="footer-info">
+            <p>GTS Corporation © 2023</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

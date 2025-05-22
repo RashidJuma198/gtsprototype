@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Assistance | GTS Jobs Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/40" alt="GTS Logo" class="logo">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-house-user"></i> Home</a></li>
+                <li><a href="network.html"><i class="fas fa-user-friends"></i> My Network</a></li>
+                <li><a href="jobs.html"><i class="fas fa-briefcase"></i> Jobs</a></li>
+                <li><a href="messaging.html"><i class="fas fa-envelope"></i> Messaging</a></li>
+                <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+                <li><a href="profile.html"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-img-large">
+                    <div class="profile-info">
+                        <h2>RASHID JUMA</h2>
+                        <p>Software Developer / AWS Cloud Computing</p>
+                    </div>
+                </div>
+                <div class="profile-stats">
+                    <p>Profile viewers: <span>56</span></p>
+                    <p>Post impressions: <span>411</span></p>
+                </div>
+                <div class="profile-footer">
+                    <p>Boost your job search with Premium</p>
+                    <button class="try-premium-btn">Try for KES 0</button>
+                </div>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#"><i class="fas fa-file-alt"></i> CV Builder</a></li>
+                    <li><a href="#"><i class="fas fa-file-invoice"></i> Job Applications</a></li>
+                    <li><a href="#"><i class="fas fa-handshake"></i> Job Matches</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Job Trends</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Job Application Assistance (JAAP)</h1>
+            </div>
+
+            <div class="jaap-form-container">
+                <form class="jaap-form">
+                    <div class="form-section">
+                        <h2>Personal Information</h2>
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone number">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h2>Job Preferences</h2>
+                        <div class="form-group">
+                            <label for="preferred-industry">Preferred Industry</label>
+                            <select id="preferred-industry">
+                                <option value="">Select an industry</option>
+                                <option value="medical">Medical Industry</option>
+                                <option value="church">Church Industry</option>
+                                <option value="technology">Technology</option>
+                                <option value="finance">Finance</option>
+                                <!-- Add more industries -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferred-company">Preferred Company Location</label>
+                            <select id="preferred-company">
+                                <option value="">Select a location</option>
+                                <option value="nairobi">Nairobi County</option>
+                                <option value="mombasa">Mombasa County</option>
+                                <option value="kisumu">Kisumu County</option>
+                                <!-- Add more locations -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferred-salary">Preferred Salary Range</label>
+                            <select id="preferred-salary">
+                                <option value="">Select a salary range</option>
+                                <option value="50-100">Kshs 50,000 - 100,000</option>
+                                <option value="100-150">Kshs 100,000 - 150,000</option>
+                                <option value="150-200">Kshs 150,000 - 200,000</option>
+                                <option value="200+">Above Kshs 200,000</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h2>Professional Information</h2>
+                        <div class="form-group">
+                            <label for="current-position">Current Position</label>
+                            <input type="text" id="current-position" placeholder="Enter your current position">
+                        </div>
+                        <div class="form-group">
+                            <label for="skills">Skills (comma separated)</label>
+                            <input type="text" id="skills" placeholder="Enter your skills">
+                        </div>
+                        <div class="form-group">
+                            <label for="experience">Work Experience (years)</label>
+                            <input type="number" id="experience" placeholder="Enter years of experience">
+                        </div>
+                        <div class="form-group">
+                            <label for="education-level">Education Level</label>
+                            <select id="education-level">
+                                <option value="">Select education level</option>
+                                <option value="high-school">High School</option>
+                                <option value="bachelor">Bachelor's Degree</option>
+                                <option value="masters">Master's Degree</option>
+                                <option value="phd">PhD</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h2>CV & Documents</h2>
+                        <div class="form-group">
+                            <label for="cv-upload">Upload CV</label>
+                            <input type="file" id="cv-upload">
+                        </div>
+                        <div class="form-group">
+                            <label for="cover-letter">Upload Cover Letter</label>
+                            <input type="file" id="cover-letter">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Submit Request</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="jaap-info-card">
+                <h3>About JAAP</h3>
+                <p>Job Application Assistance Program helps job seekers with their applications, from CV preparation to interview coaching. Our team of experts will guide you through the entire application process.</p>
+                <button class="learn-more-btn">Learn more</button>
+            </div>
+
+            <div class="success-stories">
+                <h3>Success Stories</h3>
+                <div class="story-item">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Success Story" class="story-img">
+                    <div class="story-info">
+                        <h4>Sarah Mukuti</h4>
+                        <p>Software Engineer</p>
+                        <p class="story-text">With JAAP's help, I landed my dream job at Tech Innovations Ltd.</p>
+                    </div>
+                </div>
+                <div class="story-item">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Success Story" class="story-img">
+                    <div class="story-info">
+                        <h4>Elvis Warutumo</h4>
+                        <p>Data Analyst</p>
+                        <p class="story-text">JAAP helped me improve my interview skills and get a job at Data Solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy & Terms</a>
+            <a href="#">Ad Choices</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business Services</a>
+            <a href="#">Get the GTS app</a>
+        </div>
+        <div class="footer-info">
+            <p>GTS Corporation © 2023</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
